@@ -4,7 +4,8 @@
 
 <script>
     export default {
-        name: "soutenance-slide-1"
+        name: "soutenance-slide-1",
+
     }
 </script>
 

@@ -6,7 +6,8 @@
 
 <script>
     export default {
-        name: "soutenance-slides"
+        name: "soutenance-slides",
+
     }
 </script>
 
