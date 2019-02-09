@@ -66,8 +66,14 @@
     border-collapse collapse
     border-spacing 0
 
- #app
-   width 100%
-   height 100%
+  body, html
+    width 100%
+    height 100%
+
+  #app
+    width 100%
+    height 100%
+    font-family Roboto
+
 </style>
 

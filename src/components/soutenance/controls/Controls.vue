@@ -1,15 +1,16 @@
 <template>
-    <div id="controller">
-    <button @click="previous">previous</button>
-    <button @click="next">next</button>
+    <div class="controls">
+        <button @click="previous">previous</button>
+        <button @click="next">next</button>
+        <router-view></router-view>
     </div>
 </template>
 
 <script>
-    import {store} from "../store";
+    import {store} from "@/store";
 
     export default {
-        name: "controller",
+        name: "soutenance-controls",
         methods: {
             previous() {
                 store.db.collection("action").doc('previous').set({
@@ -25,8 +26,6 @@
     }
 </script>
 
-<style scoped lang="stylus">
-    #controller
-        width 100%
-        height 100%
+<style scoped>
+
 </style>
